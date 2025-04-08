@@ -1,3 +1,9 @@
+<?php
+
+
+?>
+
+
 <!DOCTYPE HTML>
 <html lang="es">
 <head>
@@ -191,9 +197,13 @@
         <p style="font-size: 0.9em; color: gray;">Mantén presionada la tecla Ctrl (Cmd en Mac) para seleccionar múltiples géneros.</p>
 
         <p> 
-            <input type="submit" value="Agregar">
+            <input type="submit" value="insertar pelicula">
         </p>
     </form>
 </div>
 </body>
+
+
+
 </html>
+
