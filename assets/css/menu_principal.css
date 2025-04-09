@@ -33,11 +33,16 @@ nav ul{
     list-style: none; 
     padding-left: 0px; /* Elimina el padding izquierdo de la lista */
 }
+
+
+
 nav ul li{
     display: inline-block; /* Muestra los elementos de la lista en línea */
     color: #fff;
+    text-align: left;
+    padding-left: 15px;
     line-height: 50px; /* Centra verticalmente el texto dentro del nav */
-    width: 150px; /* Ancho de cada elemento de la lista */
+    width: 200px; /* Ancho de cada elemento de la lista */
 
 }
 nav ul li:hover{
@@ -47,6 +52,7 @@ nav ul li a{
     text-decoration: none;
     color: #fff;
     display: block; /* Hace que el enlace ocupe todo el espacio del elemento de la lista */
+    font-size: 14px !important;
 }
 
 .sala_juegos:hover {
@@ -102,4 +108,9 @@ header{
 
 }
 
+.fa-magnifying-glass{
+    color: #fff;
+    font-size: 16px !important; /* Tamaño del icono */
+    
+}
 

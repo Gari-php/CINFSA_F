@@ -1,0 +1,88 @@
+body{
+    background-color: #363130; /* Color de fondo del body */
+    margin: 0 !important ;
+    padding: 0 !important ;
+}
+
+nav{
+    width: 100%; /* 100% del ancho de la pantalla */
+    text-align: center; /* Centra el texto dentro del nav */
+    background-color: #dc2209; /* Color de fondo del nav */
+    height: 50px; /* Altura del nav */
+}
+nav ul{
+    list-style: none; 
+    padding-left: 0px; /* Elimina el padding izquierdo de la lista */
+}
+
+
+nav ul li{
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+    color: #fff;
+    text-align: left;
+    padding-left: 15px;
+    line-height: 50px; /* Centra verticalmente el texto dentro del nav */
+    width: 200px; /* Ancho de cada elemento de la lista */
+
+}
+nav ul li:hover{
+    background-color: #0a0a0a; /* Color de fondo al pasar el mouse por encima */
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block; /* Hace que el enlace ocupe todo el espacio del elemento de la lista */
+    font-size: 14px !important;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    padding: 10px;
+}
+
+.logo{
+    position: relative; 
+    left: 30px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.redes img{
+    position: relative; 
+    right:60%;
+    top: 17%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.redes p{
+    color: #fff; /* Color del texto */
+    font-size: 15px; /* Tamaño de la fuente */
+    margin: 0px; /* Elimina el margen del párrafo */
+    position: relative;
+    top: 0px; /* Ajusta la posición vertical del texto */
+    bottom: 20px; /* Ajusta la posición vertical del texto */
+    right: 20px;
+
+}
+
+.fa-magnifying-glass{
+    color: #fff;
+    font-size: 16px !important; /* Tamaño del icono */
+    
+}
+
+h1{
+    color: #fff; /* Color del texto */
+    font-size: 60px !important; /* Tamaño de la fuente */
+    text-align: center; /* Centra el texto */
+    margin-top: 40px; /* Margen superior */
+    padding-right: 60px; /* Espacio a la derecha */
+    margin-bottom: -10px; /* Margen inferior */;
+}
