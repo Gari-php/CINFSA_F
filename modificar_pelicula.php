@@ -52,7 +52,7 @@ $generos = $peli['generos'];
     <title>Editar Película</title>
     <style>
     body {
-        background-color: #F98E1B; 
+        background-color: #dc2209; 
         color: #333;
         font-family: Arial, sans-serif;
         display: flex;
@@ -64,7 +64,7 @@ $generos = $peli['generos'];
 
     
     .form-title {
-        color: #FF4500;
+        color: #dc2209;
         font-size: 2em;
         margin-top: 0;
         text-align: center;
@@ -73,7 +73,7 @@ $generos = $peli['generos'];
     
     .cancel-button {
         color: white;
-        background-color: #FF4500;
+        background-color: #dc2209;
         padding: 8px 15px;
         text-decoration: none;
         font-weight: bold;
@@ -84,13 +84,13 @@ $generos = $peli['generos'];
     }
 
     .cancel-button:hover {
-        background-color: #cc3700;
+        background-color: #dc2209;
     }
 
     
     form {
         background-color: white;
-        border: solid 3px #FF4500;
+        border: solid 3px #dc2209;
         width: 800%;
         max-width: 500px;
         margin: 20px;
@@ -130,13 +130,13 @@ $generos = $peli['generos'];
     input[type="number"]:focus,
     select:focus,
     textarea:focus {
-        border-color: #FF4500;
+        border-color: #dc2209;
         outline: none;
     }
 
     
     input[type="submit"] {
-        background-color: #FF4500;
+        background-color: #dc2209;
         color: white;
         border: none;
         padding: 12px;
@@ -149,7 +149,7 @@ $generos = $peli['generos'];
     }
 
     input[type="submit"]:hover {
-        background-color: #cc3700;
+        background-color: #dc2209;
     }
 
     select {

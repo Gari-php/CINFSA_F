@@ -45,7 +45,7 @@ ORDER BY
     <style>
        
         body {
-            background-color: #F98E1B;
+            background-color: #dc2209;
             color: #FFFFFF;
             font-family: Arial, sans-serif;
             text-align: center;
@@ -103,7 +103,7 @@ ORDER BY
 	.boton {
     	color: white; 
     	text-decoration: none; 
-    	background-color: red; 
+    	background-color: #363130; 
     	padding: 10px 20px; 
     	border-radius: 5px; 
     	font-size: 1.1em; 
