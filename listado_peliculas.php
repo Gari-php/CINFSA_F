@@ -120,7 +120,7 @@ ORDER BY
 </head>
 <body>
     <h1>Lista de Películas</h1>
-	<img src="Logo_cinfsa.jpeg" alt="Logo del cine" class="form-logo">
+	<img src="../ProyectoCINFSA_F/assets/img/LOGO.png" alt="Logo del cine" class="form-logo">
     <form method="POST" action="">
     <input type="text" name="busqueda" placeholder="Buscar por título..." value="<?php echo $busqueda; ?>" />
     <input type="submit" value="Buscar" class="boton" />

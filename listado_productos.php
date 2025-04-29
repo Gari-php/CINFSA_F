@@ -28,7 +28,7 @@ ORDER BY
     <title>Lista de productos de cantina</title>
     <style>
         body {
-            background-color: #F98E1B;
+            background-color: #dc2209;
             color: #FFFFFF;
             font-family: Arial, sans-serif;
             text-align: center;
@@ -86,7 +86,7 @@ ORDER BY
         .boton {
             color: white;
             text-decoration: none;
-            background-color: red;
+            background-color: #363130;
             padding: 10px 20px;
             border-radius: 5px;
             font-size: 1.1em;
@@ -103,7 +103,7 @@ ORDER BY
 </head>
 <body>
     <h1>Lista de productos de cantina</h1>
-    <img src="Logo_cinfsa.jpeg" alt="Logo del cine" class="form-logo">
+    <img src="../ProyectoCINFSA_F/assets/img/LOGO.png" alt="Logo del cine" class="form-logo">
     <form method="POST" action="">
     <input type="text" name="busqueda" placeholder="Buscar por nombre..." value="<?php echo htmlspecialchars($busqueda); ?>" />
     <input type="submit" value="Buscar" class="boton" />
