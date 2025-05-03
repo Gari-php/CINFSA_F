@@ -10,6 +10,7 @@ if (isset($_POST['busqueda'])) {
 
 $listaproducto = $mysql->query("SELECT
     pc.id_producto_cantina,
+    pc.detalle_producto,
     pc.nombre_producto_cantina,
     pc.precio_producto,
     ep.nombre_estado_producto AS estado
@@ -116,6 +117,7 @@ ORDER BY
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>
+                    <th>Descripción</th>
                     <th>Precio</th>
                     <th>Estado</th>
                 </tr>
@@ -126,6 +128,7 @@ ORDER BY
                         <tr>
                             <td><?php echo ($productos['id_producto_cantina']); ?></td>
                             <td><?php echo ($productos['nombre_producto_cantina']); ?></td>
+                            <td><?php echo ($productos['detalle_producto']); ?></td>
                             <td><?php echo ($productos['precio_producto']); ?></td>
                             <td><?php echo ($productos['estado']); ?></td>
                         </tr>
