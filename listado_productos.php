@@ -10,7 +10,6 @@ if (isset($_POST['busqueda'])) {
 
 $listaproducto = $mysql->query("SELECT
     pc.id_producto_cantina,
-    pc.detalle_producto,
     pc.nombre_producto_cantina,
     pc.precio_producto,
     ep.nombre_estado_producto AS estado
