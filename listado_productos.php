@@ -28,7 +28,7 @@ ORDER BY
     <title>Lista de productos de cantina</title>
     <style>
         body {
-            background-color: #dc2209;
+            background-color: #b83a03;
             color: #FFFFFF;
             font-family: Arial, sans-serif;
             text-align: center;
@@ -110,13 +110,12 @@ ORDER BY
 </form>
 
     <center>
-    <a href=modulo_producto.php" class="boton">Agregar producto</a>
+    <a href="modulo_producto.php" class="boton">Agregar producto</a>
         <table>
             <thead>
                 <tr>
                     <th>ID</th>
                     <th>Nombre</th>
-                    <th>Descripción</th>
                     <th>Precio</th>
                     <th>Estado</th>
                 </tr>
@@ -127,7 +126,6 @@ ORDER BY
                         <tr>
                             <td><?php echo ($productos['id_producto_cantina']); ?></td>
                             <td><?php echo ($productos['nombre_producto_cantina']); ?></td>
-                            <td><?php echo ($productos['detalle_producto']); ?></td>
                             <td><?php echo ($productos['precio_producto']); ?></td>
                             <td><?php echo ($productos['estado']); ?></td>
                         </tr>

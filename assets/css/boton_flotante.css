@@ -4,16 +4,16 @@
     height: 70px;
     bottom: 20%; /* Distancia desde la parte inferior de la pantalla */
     right: 30px; /* Distancia desde la parte derecha de la pantalla */
-    color:  #dc2209;
+    color:  #b83a03;
     border-radius: 50px;
     text-align: center;
     font-size: 30px; /* Tamaño de la fuente */
-    box-shadow: 0px 0px 20px #dc2209; /* Sombra del carrito */
+    box-shadow: 0px 0px 20px #b83a03; /* Sombra del carrito */
     z-index: 1000;   /* Asegura que el carrito esté por encima de otros elementos */
 }
 
 .carrito_compras:hover {
-    background-color: #dc2209;
+    background-color: #b83a03;
 }
 
 .carrito {

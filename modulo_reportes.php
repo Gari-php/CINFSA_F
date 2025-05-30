@@ -87,7 +87,7 @@ HAVING total_peliculas >= 3;",
     <style>
     body {
         font-family: Arial, sans-serif;
-        background: linear-gradient(135deg, #FF7F50, #FF4500); 
+        background: linear-gradient(135deg, #FF7F50, #b83a03); 
         text-align: center;
         color: white;
         margin: 0;
@@ -112,7 +112,7 @@ HAVING total_peliculas >= 3;",
 
     .boton {
         color: white;
-        background: linear-gradient(135deg, #FF6347, #FF0000); 
+        background: linear-gradient(135deg, #FF6347, #b83a03); 
         padding: 15px 30px;
         text-decoration: none;
         border-radius: 25px; 
@@ -125,13 +125,13 @@ HAVING total_peliculas >= 3;",
     }
 
     .boton:hover {
-        background: linear-gradient(135deg, #FF4500, #FF6347); /* Cambiar gradiente al pasar el ratón */
+        background: linear-gradient(135deg, #b83a03, #b83a03); /* Cambiar gradiente al pasar el ratón */
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Intensificar la sombra */
         transform: scale(1.05); /* Aumentar ligeramente el tamaño */
     }
 
     .boton:active {
-        background: linear-gradient(135deg, #FF6347, #FF4500); /* Cambiar gradiente al presionar */
+        background: linear-gradient(135deg, #b83a03,#b83a03); /* Cambiar gradiente al presionar */
         transform: scale(0.98); /* Reducir ligeramente el tamaño */
     }
 

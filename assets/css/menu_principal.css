@@ -26,7 +26,7 @@ button {
     nav{
     width: 100%; /* 100% del ancho de la pantalla */
     text-align: center; /* Centra el texto dentro del nav */
-    background-color: #dc2209; /* Color de fondo del nav */
+    background-color: #b83a03; /* Color de fondo del nav */
     height: 50px; /* Altura del nav */
 }
 nav ul{
